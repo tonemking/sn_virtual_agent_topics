@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE">
+        <annotation>[{"indexes":[6],"annotatedString":"what is the current price of {{phrase=\"CUSIP\"}}"}]</annotation>
+        <entity display_value="quoteAAPL">d2c31dea2f711010d76cf21df699b63f</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-07 07:30:36</sys_created_on>
+        <sys_id>bdd39dea2f711010d76cf21df699b6a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>quoteAAPL.what is the current price of CUSIP</sys_name>
+        <sys_package display_value="Custom Topics" source="x_20227_custom_top">a6dc45e62f711010d76cf21df699b641</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Custom Topics">a6dc45e62f711010d76cf21df699b641</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_bdd39dea2f711010d76cf21df699b6a0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-07 07:30:36</sys_updated_on>
+        <utterance display_value="what is the current price of CUSIP">b4121dea2f711010d76cf21df699b639</utterance>
+    </m2m_sys_nlu_utterance_entity>
+</record_update>

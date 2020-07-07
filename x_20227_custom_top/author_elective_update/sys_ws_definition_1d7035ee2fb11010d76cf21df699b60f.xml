@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_definition">
+    <sys_ws_definition action="DELETE">
+        <active>true</active>
+        <base_uri>/api/x_20227_custom_top/get_stock_quote</base_uri>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_version>No active default version</default_version>
+        <doc_link/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <is_versioned>false</is_versioned>
+        <name>Get Stock Quote</name>
+        <namespace>x_20227_custom_top</namespace>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <service_id>get_stock_quote</service_id>
+        <short_description/>
+        <sys_class_name>sys_ws_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-07 09:35:49</sys_created_on>
+        <sys_id>1d7035ee2fb11010d76cf21df699b60f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get Stock Quote</sys_name>
+        <sys_package display_value="Custom Topics" source="x_20227_custom_top">a6dc45e62f711010d76cf21df699b641</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Custom Topics">a6dc45e62f711010d76cf21df699b641</sys_scope>
+        <sys_update_name>sys_ws_definition_1d7035ee2fb11010d76cf21df699b60f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-07 09:35:49</sys_updated_on>
+    </sys_ws_definition>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Custom Topics">a6dc45e62f711010d76cf21df699b641</application>
+        <file_path/>
+        <instance_id>510a4852db78d850566750b6f4961926</instance_id>
+        <instance_name>dev103954</instance_name>
+        <name>sys_ws_definition_1d7035ee2fb11010d76cf21df699b60f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_definition"><sys_ws_definition action="INSERT_OR_UPDATE"><active>true</active><base_uri>/api/x_20227_custom_top/get_stock_quote</base_uri><consumes>application/json,application/xml,text/xml</consumes><consumes_customized>false</consumes_customized><default_version>No active default version</default_version><doc_link/><enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl><is_versioned>false</is_versioned><name>Get Stock Quote</name><namespace>x_20227_custom_top</namespace><produces>application/json,application/xml,text/xml</produces><produces_customized>false</produces_customized><service_id>get_stock_quote</service_id><short_description/><sys_class_name>sys_ws_definition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-07-07 09:35:49</sys_created_on><sys_id>1d7035ee2fb11010d76cf21df699b60f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Get Stock Quote</sys_name><sys_package display_value="Custom Topics" source="x_20227_custom_top">a6dc45e62f711010d76cf21df699b641</sys_package><sys_policy/><sys_scope display_value="Custom Topics">a6dc45e62f711010d76cf21df699b641</sys_scope><sys_update_name>sys_ws_definition_1d7035ee2fb11010d76cf21df699b60f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-07-07 09:35:49</sys_updated_on></sys_ws_definition></record_update>]]></payload>
+        <payload_hash>97758137</payload_hash>
+        <record_name>Get Stock Quote</record_name>
+        <reverted_from/>
+        <source>5e9d8de62f711010d76cf21df699b66a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-07 09:35:49</sys_created_on>
+        <sys_id>c480b1ee2fb11010d76cf21df699b6cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17328a1a7900000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-07 09:35:49</sys_updated_on>
+        <type>Scripted REST API</type>
+        <update_guid>0080b1eea9b1101038a6e4f5541b1ecb</update_guid>
+        <update_guid_history>0080b1eea9b1101038a6e4f5541b1ecb:97758137</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-07 09:49:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_ws_definition">sys_ws_definition</sys_db_object>
+        <sys_id>8ce1f76a3cda4ab0928ca857fc7f1521</sys_id>
+        <sys_metadata>1d7035ee2fb11010d76cf21df699b60f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get Stock Quote</sys_name>
+        <sys_package display_value="Custom Topics" source="x_20227_custom_top">a6dc45e62f711010d76cf21df699b641</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Custom Topics">a6dc45e62f711010d76cf21df699b641</sys_scope>
+        <sys_scope_delete display_value="">568c95139716499cb6e9c55ee63bfa44</sys_scope_delete>
+        <sys_update_name>sys_ws_definition_1d7035ee2fb11010d76cf21df699b60f</sys_update_name>
+        <sys_update_version display_value="sys_ws_definition_1d7035ee2fb11010d76cf21df699b60f">c480b1ee2fb11010d76cf21df699b6cb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-07 09:49:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

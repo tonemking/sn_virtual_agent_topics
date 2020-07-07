@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_entity">
+    <sys_nlu_entity action="INSERT_OR_UPDATE">
+        <base_entity/>
+        <field_name/>
+        <model/>
+        <name>quoteAAPL</name>
+        <sys_class_name>sys_nlu_entity</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-07 07:30:22</sys_created_on>
+        <sys_id>d2c31dea2f711010d76cf21df699b63f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>quoteAAPL</sys_name>
+        <sys_package display_value="Custom Topics" source="x_20227_custom_top">a6dc45e62f711010d76cf21df699b641</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Custom Topics">a6dc45e62f711010d76cf21df699b641</sys_scope>
+        <sys_update_name>sys_nlu_entity_d2c31dea2f711010d76cf21df699b63f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-07 07:30:22</sys_updated_on>
+        <table/>
+        <type>pattern</type>
+        <values_list>/([A-Z])/+</values_list>
+    </sys_nlu_entity>
+</record_update>

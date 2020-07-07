@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <category display_value="Setup Topics">5628e7f27373230025d032e954f6a7de</category>
+        <connect_queue/>
+        <description>Get any stock quote</description>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.16",
+  "goals": {
+    "45b4d45be6534b9ba0a79614ef28dc70": {
+      "id": "45b4d45be6534b9ba0a79614ef28dc70",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "edd79925e20446338b040ddd05e2e2a5": {
+          "id": "edd79925e20446338b040ddd05e2e2a5",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "d27ee2ded6d44bf6ac087e712b436789": {
+          "id": "d27ee2ded6d44bf6ac087e712b436789",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "eac1603b9e954454acc9901fa6276510": {
+          "id": "eac1603b9e954454acc9901fa6276510",
+          "stepType": "Prompt",
+          "name": "Get a quote",
+          "prompt": {
+            "value": "What stock would you like me to search for?",
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": true,
+          "skipIfFulfilled": false,
+          "entity": {
+            "id": "quoteAAPL",
+            "label": "quoteAAPL"
+          },
+          "variableId": "7fd876d3cfb841b0b7b02e02a0d0e701"
+        },
+        "964941823f2347b68e0912abc6ec4d30": {
+          "id": "964941823f2347b68e0912abc6ec4d30",
+          "stepType": "ScriptOutput",
+          "name": "Quote",
+          "output_type": "single_part",
+          "script": "(function execute() {\n     \n      var stock = vaInputs.get_a_quote + '';\n      var quote = new StockQuote(stock).process();\n      var cardRenderer = new global.VaRecordCardRenderer(true);\n\n      /* Add a title and URL */\n      var title = {\n            label: 'Quote'\n      };\n\n      /* Add fields to show on the card */\n      var fields = [\n            cardRenderer.createStaticField(gs.getMessage('Symbol'), stock),\n            cardRenderer.createStaticField(gs.getMessage('Price'), quote)\n\n      ];\n\n      /* Return html of the rendered card */\n      return cardRenderer.renderCard(title, fields);\n\n})()\n",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "f009523c6ad045f88d85eef655abf7cd",
+          "edgeType": "Edge",
+          "source": "edd79925e20446338b040ddd05e2e2a5",
+          "target": "eac1603b9e954454acc9901fa6276510",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "b58f5e4647e944559322e1f0ba0aba8c",
+          "edgeType": "Edge",
+          "source": "eac1603b9e954454acc9901fa6276510",
+          "target": "964941823f2347b68e0912abc6ec4d30",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "76faa108743e4e2487ec333e9eba3e84",
+          "edgeType": "Edge",
+          "source": "964941823f2347b68e0912abc6ec4d30",
+          "target": "d27ee2ded6d44bf6ac087e712b436789",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "7fd876d3cfb841b0b7b02e02a0d0e701": {
+      "id": "7fd876d3cfb841b0b7b02e02a0d0e701",
+      "name": "get_a_quote",
+      "label": "Get A Quote",
+      "varType": "string",
+      "category": "vaInputs"
+    }
+  }
+}</graph>
+        <key_phrases>Stock Quotes</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Stock Quotes</name>
+        <nlu_intent>GetQuote</nlu_intent>
+        <nlu_intent_label>GetQuote</nlu_intent_label>
+        <nlu_model>global_a6dc45e62f711010d76cf21df699b641_NLU_Model_for_Stocks_Quotes</nlu_model>
+        <nlu_model_label>NLU Model for Stocks Quotes</nlu_model_label>
+        <nlu_provider/>
+        <roles/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-07 07:05:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>871e052a2f711010d76cf21df699b651</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Stock Quotes</sys_name>
+        <sys_package display_value="Custom Topics" source="x_20227_custom_top">a6dc45e62f711010d76cf21df699b641</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Custom Topics">a6dc45e62f711010d76cf21df699b641</sys_scope>
+        <sys_update_name>sys_cb_topic_871e052a2f711010d76cf21df699b651</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-07 10:30:57</sys_updated_on>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=871e052a2f711010d76cf21df699b651"/>
+</record_update>

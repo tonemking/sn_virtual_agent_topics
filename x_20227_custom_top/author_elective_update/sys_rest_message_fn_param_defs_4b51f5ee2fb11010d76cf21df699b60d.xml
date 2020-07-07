@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_param_defs">
+    <sys_rest_message_fn_param_defs action="DELETE">
+        <name>ticker</name>
+        <order>100</order>
+        <rest_message_function display_value="">f251bdee2fb11010d76cf21df699b6cf</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_param_defs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-07 09:40:19</sys_created_on>
+        <sys_id>4b51f5ee2fb11010d76cf21df699b60d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ticker</sys_name>
+        <sys_package display_value="Custom Topics" source="x_20227_custom_top">a6dc45e62f711010d76cf21df699b641</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Custom Topics">a6dc45e62f711010d76cf21df699b641</sys_scope>
+        <sys_update_name>sys_rest_message_fn_param_defs_4b51f5ee2fb11010d76cf21df699b60d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-07 09:40:19</sys_updated_on>
+        <value>${symbol}</value>
+    </sys_rest_message_fn_param_defs>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Custom Topics">a6dc45e62f711010d76cf21df699b641</application>
+        <file_path/>
+        <instance_id>510a4852db78d850566750b6f4961926</instance_id>
+        <instance_name>dev103954</instance_name>
+        <name>sys_rest_message_fn_param_defs_4b51f5ee2fb11010d76cf21df699b60d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_param_defs"><sys_rest_message_fn_param_defs action="INSERT_OR_UPDATE"><name>ticker</name><order>100</order><rest_message_function display_value="">f251bdee2fb11010d76cf21df699b6cf</rest_message_function><sys_class_name>sys_rest_message_fn_param_defs</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-07-07 09:40:19</sys_created_on><sys_id>4b51f5ee2fb11010d76cf21df699b60d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ticker</sys_name><sys_package display_value="Custom Topics" source="x_20227_custom_top">a6dc45e62f711010d76cf21df699b641</sys_package><sys_policy/><sys_scope display_value="Custom Topics">a6dc45e62f711010d76cf21df699b641</sys_scope><sys_update_name>sys_rest_message_fn_param_defs_4b51f5ee2fb11010d76cf21df699b60d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-07-07 09:40:19</sys_updated_on><value>${symbol}</value></sys_rest_message_fn_param_defs></record_update>]]></payload>
+        <payload_hash>1352466277</payload_hash>
+        <record_name>ticker</record_name>
+        <reverted_from/>
+        <source>5e9d8de62f711010d76cf21df699b66a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-07 09:40:19</sys_created_on>
+        <sys_id>3d8131222ff11010d76cf21df699b6b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17328a5c4990000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-07 09:40:19</sys_updated_on>
+        <type>HTTP Query Parameters</type>
+        <update_guid>75813122a2f110106036a008e6e7a5b2</update_guid>
+        <update_guid_history>75813122a2f110106036a008e6e7a5b2:1352466277</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-07 09:41:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message_fn_param_defs">sys_rest_message_fn_param_defs</sys_db_object>
+        <sys_id>cd2977faef2443dc918da82c595d0810</sys_id>
+        <sys_metadata>4b51f5ee2fb11010d76cf21df699b60d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ticker</sys_name>
+        <sys_package display_value="Custom Topics" source="x_20227_custom_top">a6dc45e62f711010d76cf21df699b641</sys_package>
+        <sys_parent display_value="POST">f251bdee2fb11010d76cf21df699b6cf</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Custom Topics">a6dc45e62f711010d76cf21df699b641</sys_scope>
+        <sys_scope_delete display_value="">568c95139716499cb6e9c55ee63bfa44</sys_scope_delete>
+        <sys_update_name>sys_rest_message_fn_param_defs_4b51f5ee2fb11010d76cf21df699b60d</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_fn_param_defs_4b51f5ee2fb11010d76cf21df699b60d">3d8131222ff11010d76cf21df699b6b2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-07 09:41:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

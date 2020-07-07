@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_20227_custom_top.StockQuote</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>StockQuote</name>
+        <script><![CDATA[var StockQuote = Class.create();
+StockQuote.prototype = {
+    initialize: function(stock) {
+		this.stock = stock;
+    },
+	process : function() {
+		try {
+			var body = {"ticker": this.stock};
+			var restMessage = new sn_ws.RESTMessageV2('x_20227_custom_top.Google Cloud Function', 'POST');
+			restMessage.setRequestBody(JSON.stringify(body));
+			var response = restMessage.execute();
+			var responseBody = response.getBody();
+			var httpStatus = response.getStatusCode();
+			return parseFloat(responseBody).toFixed(2);
+		} catch(ex) {
+			gs.error("{0} for StockQuote proccess()", ex.message);
+		}
+	},
+    type: 'StockQuote'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-07 10:13:00</sys_created_on>
+        <sys_id>0648b5262ff11010d76cf21df699b67d</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>StockQuote</sys_name>
+        <sys_package display_value="Custom Topics" source="x_20227_custom_top">a6dc45e62f711010d76cf21df699b641</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Custom Topics">a6dc45e62f711010d76cf21df699b641</sys_scope>
+        <sys_update_name>sys_script_include_0648b5262ff11010d76cf21df699b67d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-07 10:30:53</sys_updated_on>
+    </sys_script_include>
+</record_update>

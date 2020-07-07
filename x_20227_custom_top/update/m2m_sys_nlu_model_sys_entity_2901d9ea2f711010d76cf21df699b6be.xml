@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_model_sys_entity">
+    <m2m_sys_nlu_model_sys_entity action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <model display_value="NLU Model for Stocks Quotes">290115aa2f711010d76cf21df699b657</model>
+        <sys_class_name>m2m_sys_nlu_model_sys_entity</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-07 07:18:19</sys_created_on>
+        <sys_entity display_value="LOCATION">6bff25c8777723005d7b3882a91061ae</sys_entity>
+        <sys_id>2901d9ea2f711010d76cf21df699b6be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NLU Model for Stocks Quotes.LOCATION</sys_name>
+        <sys_package display_value="Custom Topics" source="x_20227_custom_top">a6dc45e62f711010d76cf21df699b641</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Custom Topics">a6dc45e62f711010d76cf21df699b641</sys_scope>
+        <sys_update_name>m2m_sys_nlu_model_sys_entity_2901d9ea2f711010d76cf21df699b6be</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-07 07:18:19</sys_updated_on>
+    </m2m_sys_nlu_model_sys_entity>
+</record_update>
