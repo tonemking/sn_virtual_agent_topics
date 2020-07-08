@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_entity">
+    <sys_nlu_entity action="DELETE">
+        <base_entity/>
+        <field_name/>
+        <model/>
+        <name>StockSymbol</name>
+        <sys_class_name>sys_nlu_entity</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-08 06:10:43</sys_created_on>
+        <sys_id>9d2bce722f7d1010d76cf21df699b69d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>StockSymbol</sys_name>
+        <sys_package display_value="Custom Topics" source="x_20227_custom_top">a6dc45e62f711010d76cf21df699b641</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Custom Topics">a6dc45e62f711010d76cf21df699b641</sys_scope>
+        <sys_update_name>sys_nlu_entity_9d2bce722f7d1010d76cf21df699b69d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-08 06:10:43</sys_updated_on>
+        <table/>
+        <type>pattern</type>
+        <values_list>(?!quote)[A-Z]</values_list>
+    </sys_nlu_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Custom Topics">a6dc45e62f711010d76cf21df699b641</application>
+        <file_path/>
+        <instance_id>510a4852db78d850566750b6f4961926</instance_id>
+        <instance_name>dev103954</instance_name>
+        <name>sys_nlu_entity_9d2bce722f7d1010d76cf21df699b69d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_entity"><sys_nlu_entity action="INSERT_OR_UPDATE"><base_entity/><field_name/><model/><name>StockSymbol</name><sys_class_name>sys_nlu_entity</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-07-08 06:10:43</sys_created_on><sys_id>9d2bce722f7d1010d76cf21df699b69d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>StockSymbol</sys_name><sys_package display_value="Custom Topics" source="x_20227_custom_top">a6dc45e62f711010d76cf21df699b641</sys_package><sys_policy/><sys_scope display_value="Custom Topics">a6dc45e62f711010d76cf21df699b641</sys_scope><sys_update_name>sys_nlu_entity_9d2bce722f7d1010d76cf21df699b69d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-07-08 06:10:43</sys_updated_on><table/><type>pattern</type><values_list>(?!quote)[A-Z]</values_list></sys_nlu_entity></record_update>]]></payload>
+        <payload_hash>1839784652</payload_hash>
+        <record_name>StockSymbol</record_name>
+        <reverted_from/>
+        <source>5e9d8de62f711010d76cf21df699b66a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-08 06:10:43</sys_created_on>
+        <sys_id>d92bce722f7d1010d76cf21df699b69f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1732d0c3e450000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-08 06:10:43</sys_updated_on>
+        <type>NLU Entity</type>
+        <update_guid>152bce72ac7d1010f505013fe2c8499f</update_guid>
+        <update_guid_history>152bce72ac7d1010f505013fe2c8499f:1839784652</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-08 06:22:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_nlu_entity">sys_nlu_entity</sys_db_object>
+        <sys_id>02ddb675f2c24f148355a3ae6260d284</sys_id>
+        <sys_metadata>9d2bce722f7d1010d76cf21df699b69d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>StockSymbol</sys_name>
+        <sys_package display_value="Custom Topics" source="x_20227_custom_top">a6dc45e62f711010d76cf21df699b641</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Custom Topics">a6dc45e62f711010d76cf21df699b641</sys_scope>
+        <sys_scope_delete display_value="">568c95139716499cb6e9c55ee63bfa44</sys_scope_delete>
+        <sys_update_name>sys_nlu_entity_9d2bce722f7d1010d76cf21df699b69d</sys_update_name>
+        <sys_update_version display_value="sys_nlu_entity_9d2bce722f7d1010d76cf21df699b69d">d92bce722f7d1010d76cf21df699b69f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-08 06:22:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

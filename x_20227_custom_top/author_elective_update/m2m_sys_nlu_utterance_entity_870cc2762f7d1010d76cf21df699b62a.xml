@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity">
+    <m2m_sys_nlu_utterance_entity action="DELETE">
+        <annotation>[{"indexes":[5],"annotatedString":"what is the price of {{phrase=\"quoteAAPL\"}}"}]</annotation>
+        <entity display_value="StockSymbol">9d2bce722f7d1010d76cf21df699b69d</entity>
+        <sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-08 06:14:40</sys_created_on>
+        <sys_id>870cc2762f7d1010d76cf21df699b62a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>StockSymbol.what is the price of quoteAAPL</sys_name>
+        <sys_package display_value="Custom Topics" source="x_20227_custom_top">a6dc45e62f711010d76cf21df699b641</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Custom Topics">a6dc45e62f711010d76cf21df699b641</sys_scope>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_870cc2762f7d1010d76cf21df699b62a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-08 06:14:40</sys_updated_on>
+        <utterance display_value="what is the price of quoteAAPL">15fb86b22f7d1010d76cf21df699b617</utterance>
+    </m2m_sys_nlu_utterance_entity>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Custom Topics">a6dc45e62f711010d76cf21df699b641</application>
+        <file_path/>
+        <instance_id>510a4852db78d850566750b6f4961926</instance_id>
+        <instance_name>dev103954</instance_name>
+        <name>m2m_sys_nlu_utterance_entity_870cc2762f7d1010d76cf21df699b62a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sys_nlu_utterance_entity"><m2m_sys_nlu_utterance_entity action="INSERT_OR_UPDATE"><annotation>[{"indexes":[5],"annotatedString":"what is the price of {{phrase=\"quoteAAPL\"}}"}]</annotation><entity display_value="StockSymbol">9d2bce722f7d1010d76cf21df699b69d</entity><sys_class_name>m2m_sys_nlu_utterance_entity</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-07-08 06:14:40</sys_created_on><sys_id>870cc2762f7d1010d76cf21df699b62a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>StockSymbol.what is the price of quoteAAPL</sys_name><sys_package display_value="Custom Topics" source="x_20227_custom_top">a6dc45e62f711010d76cf21df699b641</sys_package><sys_policy/><sys_scope display_value="Custom Topics">a6dc45e62f711010d76cf21df699b641</sys_scope><sys_update_name>m2m_sys_nlu_utterance_entity_870cc2762f7d1010d76cf21df699b62a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-07-08 06:14:40</sys_updated_on><utterance display_value="what is the price of quoteAAPL">15fb86b22f7d1010d76cf21df699b617</utterance></m2m_sys_nlu_utterance_entity></record_update>]]></payload>
+        <payload_hash>-1669988449</payload_hash>
+        <record_name>StockSymbol.what is the price of quoteAAPL</record_name>
+        <reverted_from/>
+        <source>5e9d8de62f711010d76cf21df699b66a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-08 06:14:40</sys_created_on>
+        <sys_id>830cc2762f7d1010d76cf21df699b62c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1732d0fda160000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-08 06:14:40</sys_updated_on>
+        <type>NLU Utterance Entity</type>
+        <update_guid>cb0cc276cc7d10101a2463bb762f5c2b</update_guid>
+        <update_guid_history>cb0cc276cc7d10101a2463bb762f5c2b:-1669988449</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="StockSymbol.what is the price of quoteAAPL">5bbd86b62f7d1010d76cf21df699b6a2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-08 06:22:04</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sys_nlu_utterance_entity">m2m_sys_nlu_utterance_entity</sys_db_object>
+        <sys_id>4697161f477d4d50a9fa14f4a2bfbbb1</sys_id>
+        <sys_metadata>870cc2762f7d1010d76cf21df699b62a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>StockSymbol.what is the price of quoteAAPL</sys_name>
+        <sys_package display_value="Custom Topics" source="x_20227_custom_top">a6dc45e62f711010d76cf21df699b641</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Custom Topics">a6dc45e62f711010d76cf21df699b641</sys_scope>
+        <sys_scope_delete display_value="">568c95139716499cb6e9c55ee63bfa44</sys_scope_delete>
+        <sys_update_name>m2m_sys_nlu_utterance_entity_870cc2762f7d1010d76cf21df699b62a</sys_update_name>
+        <sys_update_version display_value="m2m_sys_nlu_utterance_entity_870cc2762f7d1010d76cf21df699b62a">830cc2762f7d1010d76cf21df699b62c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-08 06:22:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

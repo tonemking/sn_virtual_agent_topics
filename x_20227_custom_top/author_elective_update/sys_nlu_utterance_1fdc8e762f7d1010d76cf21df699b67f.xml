@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance">
+    <sys_nlu_utterance action="DELETE">
+        <intent display_value="GetQuote">c9419dea2f711010d76cf21df699b689</intent>
+        <sys_class_name>sys_nlu_utterance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-08 06:18:14</sys_created_on>
+        <sys_id>1fdc8e762f7d1010d76cf21df699b67f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>what is the price of qAAPL</sys_name>
+        <sys_package display_value="Custom Topics" source="x_20227_custom_top">a6dc45e62f711010d76cf21df699b641</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Custom Topics">a6dc45e62f711010d76cf21df699b641</sys_scope>
+        <sys_update_name>sys_nlu_utterance_1fdc8e762f7d1010d76cf21df699b67f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-08 06:18:14</sys_updated_on>
+        <utterance>what is the price of qAAPL</utterance>
+    </sys_nlu_utterance>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Custom Topics">a6dc45e62f711010d76cf21df699b641</application>
+        <file_path/>
+        <instance_id>510a4852db78d850566750b6f4961926</instance_id>
+        <instance_name>dev103954</instance_name>
+        <name>sys_nlu_utterance_1fdc8e762f7d1010d76cf21df699b67f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_nlu_utterance"><sys_nlu_utterance action="INSERT_OR_UPDATE"><intent display_value="GetQuote">c9419dea2f711010d76cf21df699b689</intent><sys_class_name>sys_nlu_utterance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-07-08 06:18:14</sys_created_on><sys_id>1fdc8e762f7d1010d76cf21df699b67f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>what is the price of qAAPL</sys_name><sys_package display_value="Custom Topics" source="x_20227_custom_top">a6dc45e62f711010d76cf21df699b641</sys_package><sys_policy/><sys_scope display_value="Custom Topics">a6dc45e62f711010d76cf21df699b641</sys_scope><sys_update_name>sys_nlu_utterance_1fdc8e762f7d1010d76cf21df699b67f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-07-08 06:18:14</sys_updated_on><utterance>what is the price of qAAPL</utterance></sys_nlu_utterance></record_update>]]></payload>
+        <payload_hash>406651447</payload_hash>
+        <record_name>what is the price of qAAPL</record_name>
+        <reverted_from/>
+        <source>5e9d8de62f711010d76cf21df699b66a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-08 06:18:14</sys_created_on>
+        <sys_id>17dc8e762f7d1010d76cf21df699b681</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1732d131e4e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-08 06:18:14</sys_updated_on>
+        <type>NLU Utterance</type>
+        <update_guid>5fdc8e76df7d1010b0f36bdfd379fe80</update_guid>
+        <update_guid_history>5fdc8e76df7d1010b0f36bdfd379fe80:406651447</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-08 06:22:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_nlu_utterance">sys_nlu_utterance</sys_db_object>
+        <sys_id>3d5fbacfd5054c0ca9d8267757e52d90</sys_id>
+        <sys_metadata>1fdc8e762f7d1010d76cf21df699b67f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>what is the price of qAAPL</sys_name>
+        <sys_package display_value="Custom Topics" source="x_20227_custom_top">a6dc45e62f711010d76cf21df699b641</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Custom Topics">a6dc45e62f711010d76cf21df699b641</sys_scope>
+        <sys_scope_delete display_value="">568c95139716499cb6e9c55ee63bfa44</sys_scope_delete>
+        <sys_update_name>sys_nlu_utterance_1fdc8e762f7d1010d76cf21df699b67f</sys_update_name>
+        <sys_update_version display_value="sys_nlu_utterance_1fdc8e762f7d1010d76cf21df699b67f">17dc8e762f7d1010d76cf21df699b681</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-08 06:22:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
